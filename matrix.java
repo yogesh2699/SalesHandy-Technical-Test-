@@ -1,4 +1,4 @@
-//Program Start.
+
 import java.util.Scanner;
 
 public class matrix {
@@ -11,8 +11,11 @@ public class matrix {
 		if(s.equals("Maximum")){
 			Max();   //Max() function will call if User enter Maximum.
 		}
-		if(s.equals("Minimum")) {
+		else if(s.equals("Minimum")) {
 			Min();   //Min() function will call if user enter Minimum.
+		}
+		else{
+			System.out.println("Please enter the correct keyword");
 		}
 		
 } 
